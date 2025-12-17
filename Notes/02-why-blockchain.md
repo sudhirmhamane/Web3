@@ -150,6 +150,72 @@ There is a need for trustless, anonymized and decentralized form of money, block
 
 * This creates a "Chain" of blocks, hence the name is "blockchain"
 
+
+---
+
+# Important Blockchain Terms
+
+
+## Nonce
+
+A **nonce** is a unique number that miners must find to produce a valid hash.
+
+* Used only once
+* Ensures the resulting hash satisfies the blockchain’s difficulty conditions
+
+
+## Finding the Nonce
+
+* Miners repeatedly try different nonce values
+* Each nonce is combined with block data and hashed
+* The process continues until a valid hash is found
+
+
+## Miners and Compute Power
+
+* Miners are participants who produce new blocks in the blockchain
+
+* Higher compute power increases the probability of:
+
+  * Finding the correct nonce
+  * Producing the next block
+  * Earning the block reward
+
+* Compute power is required to perform repeated hash calculations
+
+
+## Nonce and Proof of Work (PoW)
+
+* The nonce is added to block data and hashed
+* A valid nonce produces a hash that meets the network’s difficulty criteria
+* The effort required to find this nonce is called **Proof of Work (PoW)**
+
+
+## Consensus Mechanism
+
+A **consensus mechanism** is a method that ensures all participants agree on:
+
+* The current state of the blockchain
+* The validity of transactions and blocks
+
+It acts as a rulebook for maintaining trust in a decentralized network.
+
+## Proof of Work (PoW)
+
+Proof of Work is a consensus mechanism used in blockchain networks.
+
+* Requires solving complex mathematical problems
+* Involves finding the correct nonce
+* Ensures blockchain security and integrity
+* Validates transactions and enables the addition of new blocks
+
+## One-Line Summary
+
+Nonce enables Proof of Work, Proof of Work secures the blockchain, and the consensus mechanism ensures everyone agrees on the same blockchain state.
+
+
+---
+
 ## Summary
 
 Blockchain was created to eliminate the need for centralized trust, reduce intermediaries, and provide a transparent, secure, and immutable system for data and value exchange.
