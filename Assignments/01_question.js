@@ -3,9 +3,9 @@
 const crypto = require('crypto');
 
 function findHashWithPrefix(prefix) {
-    let input = 0;
+    let input = 596139;
     while(true) {
-        let inputstr = input.toString();
+        let inputstr = "harkirat => raman | 100 " + input.toString();
         let hash = crypto.createHash('sha256').update(inputstr).digest('hex');
 
         if(hash.startsWith(prefix)) {
