@@ -1,0 +1,22 @@
+{
+  "name": "typscript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "npx tsc",
+    "type": "module"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^25.0.6",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@noble/ed25519": "^3.0.0",
+    "bip39": "^3.1.0"
+  }
+}
